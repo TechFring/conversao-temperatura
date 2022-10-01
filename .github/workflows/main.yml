@@ -50,5 +50,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            techfring/conversao-temperatura:v1
+            techfring/conversao-temperatura:${{github.run_number}}
             techfring/conversao-temperatura:latest
